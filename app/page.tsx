@@ -106,7 +106,7 @@ export default function Home() {
                 Enviar Email
               </a>
               <a
-                href="https://github.com/your-username"
+                href="https://github.com/riverajulianm98-oss"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-105"
