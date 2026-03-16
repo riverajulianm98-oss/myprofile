@@ -1,3 +1,7 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/store/page": "app/store/page.js",
+  "/projects/task-management-app/page": "app/projects/task-management-app/page.js",
+  "/projects/data-visualization-dashboard/page": "app/projects/data-visualization-dashboard/page.js",
+  "/projects/landing-page-pro/page": "app/projects/landing-page-pro/page.js"
 }

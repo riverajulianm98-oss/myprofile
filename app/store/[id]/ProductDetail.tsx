@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import { useMemo } from "react"
-import { useCart } from "../../context/CartProvider"
 import type { StoreProduct } from "../../../lib/store"
 
 type Props = {
@@ -10,7 +9,7 @@ type Props = {
 }
 
 export default function ProductDetail({ product }: Props) {
-  const { add } = useCart()
+
 
   const formattedPrice = useMemo(() => product.price.toFixed(2), [product.price])
 
@@ -45,16 +44,8 @@ export default function ProductDetail({ product }: Props) {
           ))}
         </div>
 
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-          <button
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-cyan-500 px-6 py-3 text-lg font-semibold text-black shadow-lg shadow-cyan-500/30 transition hover:bg-cyan-400"
-            onClick={() => add(product)}
-          >
-            Agregar al carrito
-          </button>
-          <div className="text-sm text-gray-300">
-            Stock: <span className="font-medium">{product.stock}</span>
-          </div>
+        <div className="text-sm text-gray-300 mt-4">
+          Stock: <span className="font-medium">{product.stock}</span>
         </div>
       </div>
     </div>
