@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import WhatsAppFloatingButton from './components/CartDrawer'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'Portfolio para promocionar proyectos a clientes y empleadores',
+  title: 'Portfolio de Julián Rivera',
+  description: 'Portfolio profesional para promocionar proyectos a clientes y empleadores',
 }
 
 export default function RootLayout({
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <WhatsAppFloatingButton />
+      </body>
     </html>
   )
 }
