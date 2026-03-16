@@ -46,7 +46,7 @@ export default function ProductDetailPage({ params }: any) {
           <ul className="text-gray-300 space-y-2">
             <li>• Configuración de UI moderna con Next.js y Tailwind</li>
             <li>• Rutas dinámicas usando <code>app/store/[id]</code></li>
-            <li>• Carrito de compras con React Context</li>
+            {/* <li>• Carrito de compras con React Context</li> */}
           </ul>
         </div>
       </div>

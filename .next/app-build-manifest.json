@@ -15,21 +15,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/store/page.js"
-    ],
-    "/projects/task-management-app/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/task-management-app/page.js"
-    ],
-    "/projects/data-visualization-dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/data-visualization-dashboard/page.js"
-    ],
-    "/projects/landing-page-pro/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/projects/landing-page-pro/page.js"
     ]
   }
 }
