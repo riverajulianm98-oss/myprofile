@@ -1455,6 +1455,9 @@ video {
   -webkit-background-clip: text;
           background-clip: text;
 }
+.fill-white {
+  fill: #fff;
+}
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
